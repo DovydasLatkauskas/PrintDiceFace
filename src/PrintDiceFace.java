@@ -8,6 +8,11 @@ public class PrintDiceFace {
      */
     public static void main(String[] args) {
 
+        for (String argument:args){
+            int input = checkInput(argument);
+            printDice(input);
+        }
+
     }
 }
 
