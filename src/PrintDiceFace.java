@@ -2,16 +2,16 @@ import static helperClasses.checkInput.checkInput;
 import static helperClasses.printDice.printDice;
 
 /**
- * todo JavaDoc class
+ * main class for running the application
  */
 public class PrintDiceFace {
     /**
-     * todo JavaDoc main
-     * @param args
+     * main method for running the app
+     * @param args takes in a list of ints from 1 to 6 and prints dice faces one after another, skipping over any invalid input
      */
     public static void main(String[] args) {
 
-        for (String argument:args){
+        for (String argument:args){ // loops for each argument provided when running the app
             int input = checkInput(argument);
             if(input == 0){ // if invalid input we just skip this input
                 continue;
