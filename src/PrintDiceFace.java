@@ -1,4 +1,5 @@
 import static helperClasses.checkInput.checkInput;
+import static helperClasses.printDice.printDice;
 
 /**
  * todo JavaDoc class
