@@ -1,3 +1,5 @@
+import static helperClasses.checkInput.checkInput;
+
 /**
  * todo JavaDoc class
  */
@@ -10,7 +12,13 @@ public class PrintDiceFace {
 
         for (String argument:args){
             int input = checkInput(argument);
-            printDice(input);
+            if(input == 0){ // if invalid input we just skip this input
+                continue;
+            }
+            else{
+                printDice(input); // only receives int that is 1-6
+            }
+
         }
 
     }
