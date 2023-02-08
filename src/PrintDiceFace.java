@@ -11,14 +11,14 @@ public class PrintDiceFace {
     }
 }
 
-/* todo 1 Open the TODO tab to help you see what needs doing.
+/* Open the TODO tab to help you see what needs doing.
             You can rename these comments to remove them from the list.
             This is better than deleting them because you can see what did need
             doing. Alternatively add "DONE" to the comment.
 */
-// todo 2 Make multiple designs on paper
-// todo 3 Compare designs
-/* todo 4 Upload design(s) as images into the design folder,
+//  Make multiple designs on paper
+//  Compare designs
+/*  Upload design(s) as images into the design folder,
             keeping file size small
 */
 // todo 5 Code, test, and refine a design
